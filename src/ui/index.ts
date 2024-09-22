@@ -25,5 +25,3 @@ button?.addEventListener("click", async () => {
   const opVal = operationInstance.veryInefficientFib(enteredVal);
   result.textContent = opVal.toString();
 });
-
-

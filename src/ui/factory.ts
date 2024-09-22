@@ -7,8 +7,8 @@ const HeavyOperation = Comlink.wrap<HeavyOperationAPI>(
     type: "module",
   })
 );
-export async function getOperationInstance() {
-  return await new HeavyOperation();
+export function getOperationInstance() {
+  return new HeavyOperation();
 }
 
 
